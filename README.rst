@@ -9,6 +9,17 @@ implemented:
 - `VEGAS <https://en.wikipedia.org/wiki/VEGAS_algorithm>`_ [1]_ [2]_, and
 - MULTI CHANNEL with adaptive weight optimization [3]_.
 
+Fork status
+===========
+
+- This repository is a fork of `cschwan/hep-mc <https://github.com/cschwan/hep-mc>`_ kept under the
+  original GPL-3.0 license.
+- Modified and extended for MonteCarloSimulator benchmarking by apurvakreddy (2024).
+- Additions include a plain numerical integration example
+  (``examples/numerical_integration_plain.cpp``) and vendored test support
+  (``subprojects/Catch2-2.5.0`` and ``subprojects/packagecache``).
+  All changes are provided under the same GPL-3.0 terms.
+
 Features
 ========
 
