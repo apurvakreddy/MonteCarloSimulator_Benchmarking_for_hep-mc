@@ -5,6 +5,7 @@ examples = [
     'helpers',
     'multi_channel_disabled_channels',
     'multi_channel',
+    'numerical_integration_plain',
     'two_dimensional_distribution',
     'vegas',
     'vegas_stop_after_precision',
